@@ -15,7 +15,7 @@ print(Fore.CYAN+"""  _______                   _       _   _       _
 print(Fore.MAGENTA+"[+] - - - - - Welcome to Temo`s Nuke World! - - - - - [+]")
 
 def display_menu():
-    print(Fore.RED+"[+] - - - Choose Option - - - [+]")
+    print(Fore.RED + """[+] - - - Choose Option - - - [+]""")
     print(Fore.GREEN + """[1] - Nuke Server \n[2] - Ip Lookup\n[3] - About Us""")
 
 def execute_command(command):
@@ -27,11 +27,12 @@ def execute_command(command):
         print("Join our discord server! - https://discord.gg/Nr7PdYfaQe - ")
     else:
         print(Fore.RED+"Invalid option!")
-    while True:
-        display_menu()
-        command = input('>  ')
 
-        if command.lower() == 'exit':
-            break
-    execute_command(command)
+while True:
     display_menu()
+    command = input('> ')
+
+    if command.lower() == 'exit':
+        break
+
+    execute_command(command)
