@@ -1,14 +1,12 @@
-# Temos-Nuker
-Hello
-This is my own discord server nuker
-I hope you like it
+# Temos-Multitool
+Hello This is my own Multitool
 Instructions:
 --------------------------------------------------
-Run run.bat
 _________________________________________________
 git clone https://github.com/temogama/Temos-Nuker
+pip install -r requirements.txt
 -------------------------------------------------
-cd TemosNuker
+cd Temos-Nuker
 -------------------------------------------------
 python main.py
 -------------------------------------------------
