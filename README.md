@@ -3,12 +3,27 @@ Hello This is my own Multitool
 Instructions:
 --------------------------------------------------
 _________________________________________________
-git clone https://github.com/temogama/Temos-Nuker
+1. git clone https://github.com/temogama/Temos-Nuker
 --------------------------------------------------
-pip install -r requirements.txt
+2. pip install -r requirements.txt
 -------------------------------------------------
-cd Temos-Nuker
+3. cd Temos-Nuker
 -------------------------------------------------
-python main.py
+4. python main.py
 -------------------------------------------------
 ENJOY!
+
+/////////////////////////////////////////////////
+გამარჯობა! ეს არის ჩემი გაკეთებული Multitool
+ინსტრუქციები:
+_________________________________________________
+1. git clone https://github.com/temogama/Temos-Nuker
+--------------------------------------------------
+2. pip install -r requirements.txt
+-------------------------------------------------
+3. cd Temos-Nuker
+-------------------------------------------------
+4. python main.py
+-------------------------------------------------
+ისიამოვნეთ!
+
